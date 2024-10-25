@@ -1,0 +1,32 @@
+import pygame
+initialize
+
+set up display
+
+set up background
+
+class Slime(pygame.sprite.Sprite)
+	def init
+		load image
+		convert
+	
+		create rect
+
+		create movement (dx and dy)
+
+	def update(self)
+		make sprite fall
+		keys = get pressed array
+		a key pressed makes sprite go left
+		d key pressed makes sprite go right
+		space key makes sprite go up
+		check bounds and go to other side of screen if sprite hits bounds
+def main()
+	create caption
+	load background
+	blit background
+	create slime
+	while loop
+		check events
+			loop ends if quit
+		clear and redraw sprites
